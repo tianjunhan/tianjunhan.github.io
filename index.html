@@ -46,18 +46,18 @@
               <td style="padding:7px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  I am a fluid dynamicist focusing on underwater propulsion. I employ <strong>hydrofoils</strong> and <strong>fish-like robots</strong> to reveal <strong>scaling laws</strong> that predict thrust, power consumption, maneuverability, and stable formations in bio-inspired propulsion. My research provides guidance for the development and control of advanced underwater bio-inspired vehicles.
+                  I am a fluid dynamicist focusing on underwater propulsion. I employ <strong>hydrofoils</strong> and <strong>fish-like robots</strong> to reveal <strong>scaling laws</strong> that predict thrust, power consumption, maneuverability, and stable formations in bio-inspired propulsion. My research provides guidance for the development and control of advanced underwater vehicles.
                 </p>
 		<p style="margin-top:0.5em;">
-	          <strong>My thoughts on scaling laws:</strong> I am always fascinated by the beauty and power of scaling laws in uncovering fundamental physics and solving engineering problems. Scaling laws reveal the dominant factors governing physical phenomena. Moreover, due to their simplicity, they are readily applicable to real-world problems and can be effectively used for large-scale training of AI models.
+	          <strong>My thoughts on scaling laws:</strong> I am always fascinated by the beauty and power of scaling laws in uncovering fundamental physics and solving engineering problems. Scaling laws reveal the dominant factors that govern physical phenomena. Moreover, due to their simplicity, they are readily applicable to real-world engineering problems and can be effectively used for large-scale training of AI models.
 		</p>
                 </p>
 		<p style="margin-top:0.5em;">
 	          <strong>The distinctions between scaling laws and curve fitting:</strong> 1. Scaling laws are derived from physical principles, such as Newton’s second law, the Kutta-Joukowski theorem, and the Euler-Bernoulli beam equation. 
-                  2. In scaling laws, units are consistent between the left- and right-hand sides, as well as among all terms on the right-hand side.
+                  2. In scaling laws, units are consistent between the left- and right-hand sides, as well as among all the terms on the right-hand side.
 	          3. Each term on the right-hand side has a clear physical meaning. 
 	          4. Scaling laws’ validity is independent of datasets.
-	          5. Scaling laws are valid in asymmpotic conditions. For example, a scaling law that predicts the thrust of oscillating hydrofoils should yield zero thrust when the amplitude or frequency becomes zero. 
+	          5. Scaling laws are valid in asymptotic conditions. For example, a scaling law that predicts the thrust of oscillating hydrofoils should yield zero thrust as the amplitude or frequency approaches zero. 
 		  <strong>In contrast, curve fitting does not satisfy all of these conditions simultaneously</strong>.
 		</p>
 		<p style="margin-top:0.5em;font-size:17px;">
@@ -95,7 +95,7 @@
 	<p>      
 	    We presented a scaling law that predicts the resonant condition of non-uniformly flexible hydrofoils from their frequencies, bending stiffness, and flexion ratios:
 	    <br>
-            \[\Pi_{k} = f(f,\, EI, \,\lambda)\].
+            \[\Pi_{k} = f(f,\, EI, \,\lambda)\]
         </p>     
       </td>
     </tr>
@@ -124,7 +124,7 @@
 	<p>      
 	    We presented a scaling law that predicts the equilibrium altitude of pitching hydrofoils from their Strouhal numbers and reduced frequencies:
 	    <br>
-            \[D^* = f(St,\, k)\].
+            \[D^* = f(St,\, k)\]
         </p>     
       </td>
     </tr>
@@ -152,9 +152,9 @@
 	    We found that in-line stable formations scale with the actual wake wavelength of the leader, rather than the nominal wake wavelength that is the ratio of velocity over oscillating frequency. Leveraging mismatched amplitudes, unconstrained hydrofoils can settle into the high-efficiency zone identified by previous constrained studies of in-line schooling.
 	</p>
 	<p>      
-	    We presented a scaling law that predicts the actual wake wavelength of the leader from its Strouhal number and reduced frequency:
+	    We presented a scaling law that predicts the actual wake wavelength of the leader from its chord length, Strouhal number, and reduced frequency:
 	    <br>
-            \[\lambda = f(St,\, k)\].
+            \[\lambda = f(c,\,St,\, k)\]
         </p>     
       </td>
     </tr>
@@ -179,12 +179,12 @@
         </a>
         <p></p>
         <p>
-	    We developed a single-actuator turning strategy for the Tunabot by applying a frequency asymmetry between the left and right half strokes of one tail-beat cycle.
+	    We developed a single-actuator turning strategy for the Tunabot by introducing a frequency asymmetry between the left and right half strokes of each tail-beat cycle.
 	</p>
 	<p>      
 	    We presented a scaling law that predicts the turning radius of the Tunabot from its base frequency and frequency asymmetry:
 	    <br>
-            \[r = f(f,\, \Delta f)\].
+            \[r = f(f,\, \Delta f)\]
         </p>     
       </td>
     </tr>
@@ -226,39 +226,11 @@
 	<p>      
 	    We are developing a scaling law that predicts the cost of transport of the school from its lateral spacing, tail-beat frequency and amplitude, and phase synchrony:
 	    <br>
-            \[CoT = f(Y^*,\, f,\,A,\,\phi)\].
+            \[CoT = f(Y^*,\, f,\,A,\,\phi)\]
         </p>     
       </td>
     </tr>
-		  
-  <tr>
-	<td style="padding:16px;width:35%;vertical-align:middle">
-	  <div class="one" style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;"> 
-	    <div class="two" id="project5" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-	      <img id="project5Image" src="images/project5.jpg" style="position:absolute; top:0; left:0; width:100%; height:100%;">
-	      <video id="project5Video" width="100%" height="100%" muted autoplay loop playsinline style="position:absolute; top:0; left:0; width:100%; height:100%;">
-	        <source src="images/project5.mp4" type="video/mp4">
-	        Your browser does not support the video tag.
-	      </video>
-	    </div>
-	  </div>
-	</td>
 
-      <td style="padding:8px;width:65%;vertical-align:middle">
-        
-          <span class="papertitle">Vertical manuever of the Tunabot using pectoral fins</span>
-       
-        <p></p>
-        <p>
-	    We are developing a vertical manuever using pectroal fins that enable the Tunabot to climb and dive without introducing additional pitch angle or angular velocity.
-	</p>
-	<p>      
-	    We are developing a scaling law that predicts the vertical trajectory of the Tunabot from its pectroal-fin pitch angle and tail-beat frequency:
-	    <br>
-            \[H^* = f(\theta,\, f)\].
-        </p>     
-      </td>
-    </tr>
 
 <tr>
 	<td style="padding:16px;width:35%;vertical-align:middle">
@@ -282,9 +254,39 @@
 	    We are investigating the performance of pitching hydrofoil schools of more than ten swimmers.
 	</p>
 	<p>      
-	    We are developing a scaling law that predicts the thrust enhancement of hydrofoils from their vertical and lateral spacings,Strouhal number and reduced frequency:
+	    We are developing a scaling law that predicts the thrust enhancement of hydrofoils in the school from their vertical and lateral spacings, Strouhal number, and reduced frequency:
 	    <br>
-            \[T^* = f(X^*,\,Y^*,\, St,\,f)\].
+            \[T^* = f(X^*,\,Y^*,\, St,\,f)\]
+        </p>     
+      </td>
+    </tr>
+
+		  
+  <tr>
+	<td style="padding:16px;width:35%;vertical-align:middle">
+	  <div class="one" style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;"> 
+	    <div class="two" id="project5" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+	      <img id="project5Image" src="images/project5.jpg" style="position:absolute; top:0; left:0; width:100%; height:100%;">
+	      <video id="project5Video" width="100%" height="100%" muted autoplay loop playsinline style="position:absolute; top:0; left:0; width:100%; height:100%;">
+	        <source src="images/project5.mp4" type="video/mp4">
+	        Your browser does not support the video tag.
+	      </video>
+	    </div>
+	  </div>
+	</td>
+
+      <td style="padding:8px;width:65%;vertical-align:middle">
+        
+          <span class="papertitle">Vertical manuever of the Tunabot using pectoral fins</span>
+       
+        <p></p>
+        <p>
+	    We are developing a pectoral-fin-based vertical manuever that enable the Tunabot to climb and dive without introducing additional pitch angle or angular velocity.
+	</p>
+	<p>      
+	    We are developing a scaling law that predicts the vertical trajectory of the Tunabot from its pectroal-fin pitch angle and tail-beat frequency:
+	    <br>
+            \[H^* = f(\theta,\, f)\]
         </p>     
       </td>
     </tr>
@@ -314,7 +316,7 @@
 		      <br>
 		      7. Zhu, Y., Liu, L., <strong>Han, T.</strong>, Feng, Q., Moored, K., Zhong, Q., & Quinn, D. (2025). Wavenumber affects the lift of ray-inspired fins near a substrate. <strong>arXiv preprint</strong> arXiv:2504.00427.	 
 		      <br>
-		      8. McKenney, O., Zhu, J., <strong>Han, T.</strong>, Bart-Smith, H. (2025). Development of a Turning Control Strategy for a Bio-inspired Underwater Vehicle. <strong>Submitted</strong>.	      
+		      8. McKenney, O., Zhu, J., <strong>Han, T.</strong>, Bart-Smith, H. (2025). Development of a turning control strategy for a bio-inspired underwater vehicle. <strong>Submitted</strong>.	      
 	              </td>
 	            </tr>
 	</tbody></table>     
@@ -327,7 +329,7 @@
               <td style="padding:7px;width:100%;vertical-align:middle">
                 <h2>Teaching</h2>
                 <p>
-                  I have experience in teaching both experimental and numerical courses. Additionally, I am skilled in developing experimental setup and numerical tools that make physics tangible to students and connect real-world engineering problems with classes. 
+                  I have experience in teaching both experimental and numerical courses. Additionally, I am skilled in developing experimental setups and numerical tools that make physics tangible for students and connect real-world engineering problems to classes. 
                 </p>
 		<p style="margin-top:0.5em;font-size:17px;">
 	        Here are the highlights of my teaching experience:
@@ -359,7 +361,7 @@
        
         <p></p>
         <p>
-	    I guided students in the experiments of vortex shedding and axisymmetric jets.
+	    I guided students in the experiments of vortex shedding.
 	</p>   
       </td>
     </tr>
@@ -384,7 +386,7 @@
   
         <p></p>
         <p>
-	    I develped an experimental setup for vortex ring propagation and gave class recitations on the thin airfoil theory, lifting line theory, and shock waves.
+	    I developed an experimental setup to study vortex ring propagation, and I gave class recitations on thin airfoil theory, lifting line theory, and shock waves.
 	</p> 
       </td>
     </tr>
@@ -408,7 +410,7 @@
      
         <p></p>
         <p>
-	    I taught students to use unsteady potential flow simulaitons to solve real-world engineering problems, such as flying, swimming, and energy harvesting.
+	    I taught students to use unsteady potential flow simulations to solve real-world engineering problems, such as flying, swimming, and energy harvesting.
 	</p> 
       </td>
     </tr>
@@ -434,7 +436,7 @@
               <td style="padding:0px">
                 <br>
                 <p style="text-align:right;font-size:small;">
-                  This website is built upon the template of <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>.
+                  This website is built based on the template from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>.
                 </p>
               </td>
             </tr>
